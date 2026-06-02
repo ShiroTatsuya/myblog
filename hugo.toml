@@ -1,4 +1,20 @@
-baseURL = 'https://github.com/ShiroTatsuya/myblog'
-locale = 'en-us'
-title = 'My New Hugo Project'
-theme = "PaperMod"
+baseURL = 'https://ShiroTatsuya.github.io/myblog/'
+languageCode = 'zh-cn'
+title = 'TRPG资料存档处'
+theme = 'PaperMod'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[params]
+  buildFuture = true
+
+[[menu.main]]
+  name = '搜索'
+  url = '/search/'
+  weight = 1
+
+[[menu.main]]
+  name = '文章'
+  url = '/posts/'
+  weight = 2
