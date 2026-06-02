@@ -1,0 +1,4 @@
+baseURL = 'https://github.com/ShiroTatsuya/myblog'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = "PaperMod"
